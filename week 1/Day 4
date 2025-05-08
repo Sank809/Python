@@ -1,0 +1,10 @@
+age_input = input("Enter your age: ")
+age = int(age_input)
+if age < 0:
+    print("Please Enter valid age ")
+elif age < 18: 
+    print("You are minor ")
+elif age >= 18 and age < 65:
+    print("you are an adult ")
+else: 
+    print("you Are Senior citizen" )
