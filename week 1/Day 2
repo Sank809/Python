@@ -1,0 +1,7 @@
+s = "sanket"
+print(s)
+
+s = "samiksha"
+age = 22
+city = "amravati"
+print(s,age,city)
