@@ -1,0 +1,13 @@
+a = "Hello chapri"
+b = -10
+c = 3.14
+d = ("geeks" , "for" , "geeks")
+e = [ 'a','b',1,2,3]
+f = { 1:'a', 2:'b'}
+
+print(type (a))
+print(type (b))
+print(type (c))
+print(type (d))
+print(type (e))
+print(type (f))
