@@ -1,0 +1,5 @@
+print("python", end = "@")
+print("geeksforgeeks")
+print('g','f','g', sep = '')
+print('09','11','2002', sep ='-')
+print('sanket','geeksforgeeks',sep = '@')
