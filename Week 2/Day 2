@@ -1,0 +1,4 @@
+def f():
+    a = "i am sanket"
+    print(a)
+f()
