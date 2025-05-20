@@ -1,0 +1,21 @@
+def handle_point(point):
+    match point:
+        case (0, 0):
+            print("Origin point")
+        case (x, 0):
+            print(f"Point on X-axis at x = {x}")
+        case (0, y):
+            print(f"Point on Y-axis at y = {y}")
+        case (x, y) if x == y:
+            print(f"Point on the line y = x: ({x}, {y})")
+        case (x, y):
+            print(f"Point somewhere else: ({x}, {y})")
+        case _:
+            print("Invalid input")
+
+# Test the function
+handle_point((0, 0))     # Origin point
+handle_point((5, 0))     # X-axis
+handle_point((0, 7))     # Y-axis
+handle_point((3, 3))     # Diagonal line y = x
+handle_point((4, 5))   
